@@ -4,14 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        p::first-letter{
-            color: rgb(125, 43, 43);
-        }
-    </style>
 </head>
 <body>
-    <p>hello</p>
+    <?php
+         $date = '085119' ;
+         echo explode(":" , $date , 2)
+    ?> 
 </body>
-<script src="app.js"></script>
 </html>
