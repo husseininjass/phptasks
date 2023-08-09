@@ -8,7 +8,6 @@ request.addEventListener('load' , function(){
     data.forEach(function(e , index) {
         table.innerHTML += 
         `
-        
         <tr>
         <td>${data[index].id}</td>
         <td>${data[index].name}</td>
